@@ -7,24 +7,36 @@ body {
 }
 
 .nav {
-    background-color: #000;
-    color: #fff;
-    padding: 1rem;
+    background-color: #333; 
+    color: #fff; 
+    padding: 1.5rem; 
 }
+
+.nav_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 75rem; 
+    margin: 0 auto; 
+}
+
 
 .nav_ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .nav_li {
-    margin: 0 1rem;
+    margin: 0 0.4rem; 
 }
 
 .nav_links {
+    color: white;
     text-decoration: none;
-    color: #fff;
 }
 
 .contact-container {
@@ -59,8 +71,8 @@ body {
     width: 100%;
     padding: 0.5rem;
     margin-bottom: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 0.06rem solid #ccc;
+    border-radius: 1rem;
 }
 
 .contact-form button {

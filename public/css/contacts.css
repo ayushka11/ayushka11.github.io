@@ -91,6 +91,7 @@ body {
 }
 
 .social-media {
+    display: flex;
     align-items: center;
     margin-top: 2rem;
     text-align: center;
@@ -99,10 +100,11 @@ body {
 }
 
 .social-media a {
-    padding-left: 2rem;
+    align-items: center;
     text-decoration: none;
     color: #000;
-    margin-right: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .social-media a:hover {
